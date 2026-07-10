@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishan Kumar Gupta | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">KKG.</div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <h1>Hi, I'm <span class="highlight">Kishan Kumar Gupta</span></h1>
+            <p>Computer Science Student & Web Developer</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="divider"></div>
+            <p>I am a passionate Computer Science student and software engineering enthusiast. I love building responsive, fast, and interactive web applications, as well as exploring advanced computing areas like Artificial Intelligence and Quantum Computing.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="divider"></div>
+            <div class="skills-grid">
+                <div class="skill-card"><h3>Languages</h3><p>C, C++, Python, JavaScript</p></div>
+                <div class="skill-card"><h3>Web Dev</h3><p>HTML5, CSS3, JavaScript, Responsive Design</p></div>
+                <div class="skill-card"><h3>Core CS</h3><p>Data Structures, DBMS, Software Engineering</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="divider"></div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Smart Irrigation System</h3>
+                    <p>An IoT-based automated watering apparatus utilizing NodeMCU, moisture sensors, and real-time automation logic.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>A clean, professional, fully functional responsive portfolio website built using clean HTML, CSS, and modern JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="divider"></div>
+            <div class="contact-wrapper">
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div id="formStatus" class="form-status"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Kishan Kumar Gupta. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
